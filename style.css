@@ -13,14 +13,22 @@ body {
     height: 100vh;
     flex-direction: column;
     padding-top: 20px;
+    width: 100vw;
 }
 
 /* Header Styling */
 .header {
+    display: flex;
+    gap: 15px;
     font-size: 48px;
     font-weight: 700;
     color: white;
     margin-top: 20px;
+}
+
+.book-icon {
+  display: flex;
+  font-size: 3.5rem;
 }
 
 .add-book {
@@ -76,6 +84,7 @@ body {
   background-image: linear-gradient(to right, #F35B44, #5B42F3, #5a42f3, #4738a8);
 }
 
+/* Grid/Card Styling */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -106,7 +115,7 @@ body {
     padding: 30px;
     position: relative;
     z-index: 0;
-  }
+}
 
 .book button {
     position: absolute;
@@ -122,7 +131,7 @@ body {
     cursor:pointer;
     overflow: hidden;
     color: white;   
-  }
+}
 
 .book span {
   position: absolute;
@@ -133,58 +142,58 @@ body {
   border: none;
 }
 
-  .book button:hover {
-    color: #F2492F;
-  }
-
-  .book span:hover {
-    color: #F2492F;
-  }
-
-  .book-title {
-    font-size: 1.7rem;
-    font-weight: bold;
-    padding-top: 8px;
-    padding-bottom: 5px;
-    margin-bottom: 0.5rem;
-    width: 100%;
-  }
-
-  .book-author {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-  }
-
-  .book-pages {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-  }
-
-  .book-read {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
+.book button:hover {
+  color: #F2492F;
+}
   
-  .book-read input {
-    cursor: pointer;
-  }
-  
-  .book-read-title {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-right: 5px;
-  }
+.book span:hover {
+  color: #F2492F;
+}
 
-  .edit-icon {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    right: 45px;
-    top: 15px;
-  }
+.book-title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.book-author {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.book-pages {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.book-read {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+  
+.book-read input {
+  cursor: pointer;
+}
+  
+.book-read-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-right: 2.5px;
+}
+
+.edit-icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 45px;
+  top: 15px;
+}
 
 
 /* Modal Section */
