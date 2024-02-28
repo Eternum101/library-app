@@ -14,16 +14,13 @@ A Simple Library Application Where You Can Add Books.
 ## Screenshots
 
 ### Initial Screen
-![](screenshots/initial-screen-etch-a-sketch.png)
+![](screenshots/initial-screen-library.png)
 
-### Colour Mode
-![](screenshots/colour-mode-etch-a-sketch.png)
+### Add New Book
+![](screenshots/add-book-library.png)
 
-### Rainbow Mode
-![](screenshots/rainbow-mode-etch-a-sketch.png)
-
-### Grid Adjustability
-![](screenshots/grid-adjustability-etch-a-sketch.png)
+### Edit Book
+![](screenshots/edit-book-library.png)
 
 [Back to Top](#library-app)
 
