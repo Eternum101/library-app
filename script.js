@@ -11,6 +11,7 @@ addBook.addEventListener('click', () => {
     modal.style.display = 'block';
     document.querySelector('.form-title').textContent = "Add New Book";
     document.querySelector('.form-submit-button').textContent = "Submit";
+    clearFormFields();
 });
 
 // Handles form submission, creates/updates a book object based on form data, 
@@ -189,6 +190,14 @@ function renderBooks () {
     myLibrary.map((book, index) => {
         createBookItem(book, index); 
     });
+}
+
+// Clears form fields
+function clearFormFields() {
+    document.querySelector('[name="book-title"]').value = '';
+    document.querySelector('[name="book-author"]').value = '';
+    document.querySelector('[name="book-pages"]').value = '';
+    document.querySelector('[name="book-read"]').checked = false;
 }
 
 // Calls the addLocalStorage function
